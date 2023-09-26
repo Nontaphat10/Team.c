@@ -1,0 +1,1957 @@
+.desktop {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.desktop .div {
+    background-color: #ffffff;
+    width: 1440px;
+    height: 3410px;
+    position: relative;
+}
+
+.desktop .text-wrapper {
+    position: absolute;
+    top: 2822px;
+    left: 33px;
+    font-family: "Roboto-Bold", Helvetica;
+    font-weight: 700;
+    color: var(--purple-2);
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 30px;
+    text-decoration: underline;
+    white-space: nowrap;
+}
+
+.desktop .rectangle {
+    position: absolute;
+    width: 689px;
+    height: 413px;
+    top: 2876px;
+    left: 33px;
+}
+
+.desktop .img {
+    position: absolute;
+    width: 658px;
+    height: 413px;
+    top: 2876px;
+    left: 738px;
+}
+
+.desktop .text-wrapper-2 {
+    position: absolute;
+    top: 2822px;
+    left: 738px;
+    font-family: "Roboto-Bold", Helvetica;
+    font-weight: 700;
+    color: var(--purple-2);
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 30px;
+    text-decoration: underline;
+    white-space: nowrap;
+}
+
+.desktop .text-wrapper-3 {
+    position: absolute;
+    top: 2461px;
+    left: 33px;
+    font-family: var(--heading-4-font-family);
+    font-weight: var(--heading-4-font-weight);
+    color: var(--purple-2);
+    font-size: var(--heading-4-font-size);
+    letter-spacing: var(--heading-4-letter-spacing);
+    line-height: var(--heading-4-line-height);
+    white-space: nowrap;
+    font-style: var(--heading-4-font-style);
+}
+
+.desktop .rectangle-2 {
+    position: absolute;
+    width: 10px;
+    height: 279px;
+    top: 2511px;
+    left: 228px;
+    background-color: var(--yellow);
+}
+
+.desktop .element {
+    position: absolute;
+    width: 1131px;
+    top: 2526px;
+    left: 265px;
+    font-family: var(--heading-5-font-family);
+    font-weight: var(--heading-5-font-weight);
+    color: #000000;
+    font-size: var(--heading-5-font-size);
+    letter-spacing: var(--heading-5-letter-spacing);
+    line-height: var(--heading-5-line-height);
+    font-style: var(--heading-5-font-style);
+}
+
+.desktop .span {
+    font-family: var(--heading-5-font-family);
+    font-weight: var(--heading-5-font-weight);
+    color: #000000;
+    font-size: var(--heading-5-font-size);
+    letter-spacing: var(--heading-5-letter-spacing);
+    line-height: var(--heading-5-line-height);
+    font-style: var(--heading-5-font-style);
+}
+
+.desktop .overlap {
+    position: absolute;
+    width: 750px;
+    height: 373px;
+    top: 1601px;
+    left: 665px;
+}
+
+.desktop .line {
+    position: absolute;
+    width: 216px;
+    height: 4px;
+    top: 263px;
+    left: 190px;
+}
+
+.desktop .rectangle-3 {
+    position: absolute;
+    width: 5px;
+    height: 3px;
+    top: 264px;
+    left: 416px;
+    background-color: var(--yellow);
+}
+
+.desktop .rectangle-4 {
+    position: absolute;
+    width: 750px;
+    height: 373px;
+    top: 0;
+    left: 0;
+}
+
+.desktop .ICT-information-and {
+    width: 601px;
+    top: 74px;
+    left: 91px;
+    color: var(--white);
+    font-size: var(--heading-4-font-size);
+    line-height: var(--heading-4-line-height);
+    position: absolute;
+    font-family: var(--heading-4-font-family);
+    font-weight: var(--heading-4-font-weight);
+    letter-spacing: var(--heading-4-letter-spacing);
+    font-style: var(--heading-4-font-style);
+}
+
+.desktop .rectangle-5 {
+    position: absolute;
+    width: 406px;
+    height: 3px;
+    top: 257px;
+    left: 91px;
+    background-color: var(--yellow);
+}
+
+.desktop .rectangle-6 {
+    position: absolute;
+    width: 632px;
+    height: 368px;
+    top: 1604px;
+    left: 33px;
+}
+
+.desktop .p {
+    position: absolute;
+    width: 328px;
+    top: 1500px;
+    left: 692px;
+    font-family: var(--heading-6-font-family);
+    font-weight: var(--heading-6-font-weight);
+    color: var(--grey);
+    font-size: var(--heading-6-font-size);
+    letter-spacing: var(--heading-6-letter-spacing);
+    line-height: var(--heading-6-line-height);
+    font-style: var(--heading-6-font-style);
+}
+
+.desktop .ICT-SHOW-SHARE-UP {
+    width: 328px;
+    top: 1522px;
+    left: 304px;
+    color: var(--grey);
+    font-size: var(--heading-6-font-size);
+    line-height: var(--heading-6-line-height);
+    position: absolute;
+    font-family: var(--heading-6-font-family);
+    font-weight: var(--heading-6-font-weight);
+    letter-spacing: var(--heading-6-letter-spacing);
+    font-style: var(--heading-6-font-style);
+}
+
+.desktop .silver-learning {
+    width: 328px;
+    top: 1500px;
+    left: 1079px;
+    color: var(--grey);
+    font-size: var(--heading-6-font-size);
+    line-height: var(--heading-6-line-height);
+    position: absolute;
+    font-family: var(--heading-6-font-family);
+    font-weight: var(--heading-6-font-weight);
+    letter-spacing: var(--heading-6-letter-spacing);
+    font-style: var(--heading-6-font-style);
+}
+
+.desktop .rectangle-7 {
+    position: absolute;
+    width: 328px;
+    height: 226px;
+    top: 560px;
+    left: 304px;
+    object-fit: cover;
+}
+
+.desktop .rectangle-8 {
+    position: absolute;
+    width: 328px;
+    height: 226px;
+    top: 560px;
+    left: 692px;
+    object-fit: cover;
+}
+
+.desktop .overlap-group {
+    position: absolute;
+    width: 328px;
+    height: 317px;
+    top: 560px;
+    left: 1079px;
+}
+
+.desktop .rectangle-9 {
+    position: absolute;
+    width: 328px;
+    height: 222px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+
+.desktop .element-body-mass-index {
+    position: absolute;
+    width: 310px;
+    top: 208px;
+    left: 0;
+    font-family: "Roboto-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 21px;
+    text-decoration: underline;
+}
+
+.desktop .element-body-mass-index-2 {
+    width: 328px;
+    top: 249px;
+    left: 0;
+    color: var(--grey);
+    font-size: var(--heading-6-font-size);
+    line-height: var(--heading-6-line-height);
+    position: absolute;
+    font-family: var(--heading-6-font-family);
+    font-weight: var(--heading-6-font-weight);
+    letter-spacing: var(--heading-6-letter-spacing);
+    font-style: var(--heading-6-font-style);
+}
+
+.desktop .rectangle-10 {
+    position: absolute;
+    width: 328px;
+    height: 226px;
+    top: 906px;
+    left: 304px;
+    object-fit: cover;
+}
+
+.desktop .rectangle-11 {
+    position: absolute;
+    width: 328px;
+    height: 226px;
+    top: 906px;
+    left: 692px;
+    object-fit: cover;
+}
+
+.desktop .rectangle-12 {
+    position: absolute;
+    width: 328px;
+    height: 226px;
+    top: 906px;
+    left: 1079px;
+    object-fit: cover;
+}
+
+.desktop .rectangle-13 {
+    position: absolute;
+    width: 328px;
+    height: 226px;
+    top: 1243px;
+    left: 304px;
+    object-fit: cover;
+}
+
+.desktop .rectangle-14 {
+    position: absolute;
+    width: 328px;
+    height: 226px;
+    top: 1243px;
+    left: 692px;
+    object-fit: cover;
+}
+
+.desktop .rectangle-15 {
+    position: absolute;
+    width: 328px;
+    height: 226px;
+    top: 1243px;
+    left: 1079px;
+    object-fit: cover;
+}
+
+.desktop .text-wrapper-4 {
+    position: absolute;
+    width: 145px;
+    top: 789px;
+    left: 304px;
+    font-family: "Roboto-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 21px;
+    text-decoration: underline;
+    white-space: nowrap;
+}
+
+.desktop .text-wrapper-5 {
+    width: 266px;
+    top: 1135px;
+    left: 304px;
+    color: #000000;
+    font-size: var(--heading-5-font-size);
+    line-height: var(--heading-5-line-height);
+    white-space: nowrap;
+    position: absolute;
+    font-family: var(--heading-5-font-family);
+    font-weight: var(--heading-5-font-weight);
+    letter-spacing: var(--heading-5-letter-spacing);
+    font-style: var(--heading-5-font-style);
+}
+
+.desktop .element-SHOW-SHARE-UP {
+    position: absolute;
+    width: 278px;
+    top: 1477px;
+    left: 304px;
+    font-family: "Roboto-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 21px;
+    text-decoration: underline;
+}
+
+.desktop .rr {
+    position: absolute;
+    width: 261px;
+    top: 789px;
+    left: 692px;
+    font-family: "Roboto-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 21px;
+    text-decoration: underline;
+    white-space: nowrap;
+}
+
+.desktop .text-wrapper-6 {
+    width: 276px;
+    top: 1135px;
+    left: 692px;
+    color: #000000;
+    font-size: 14px;
+    line-height: 21px;
+    text-decoration: underline;
+    white-space: nowrap;
+    position: absolute;
+    font-family: "Roboto-Bold", Helvetica;
+    font-weight: 700;
+    letter-spacing: 0;
+}
+
+.desktop .text-wrapper-7 {
+    position: absolute;
+    width: 230px;
+    top: 1477px;
+    left: 692px;
+    font-family: var(--heading-5-font-family);
+    font-weight: var(--heading-5-font-weight);
+    color: #000000;
+    font-size: var(--heading-5-font-size);
+    letter-spacing: var(--heading-5-letter-spacing);
+    line-height: var(--heading-5-line-height);
+    white-space: nowrap;
+    font-style: var(--heading-5-font-style);
+}
+
+.desktop .text-wrapper-8 {
+    width: 239px;
+    top: 1135px;
+    left: 1079px;
+    color: #000000;
+    font-size: var(--heading-5-font-size);
+    line-height: var(--heading-5-line-height);
+    white-space: nowrap;
+    position: absolute;
+    font-family: var(--heading-5-font-family);
+    font-weight: var(--heading-5-font-weight);
+    letter-spacing: var(--heading-5-letter-spacing);
+    font-style: var(--heading-5-font-style);
+}
+
+.desktop .text-wrapper-9 {
+    position: absolute;
+    width: 267px;
+    top: 1477px;
+    left: 1079px;
+    font-family: var(--heading-5-font-family);
+    font-weight: var(--heading-5-font-weight);
+    color: #000000;
+    font-size: var(--heading-5-font-size);
+    letter-spacing: var(--heading-5-letter-spacing);
+    line-height: var(--heading-5-line-height);
+    white-space: nowrap;
+    font-style: var(--heading-5-font-style);
+}
+
+.desktop .text-wrapper-10 {
+    width: 328px;
+    top: 809px;
+    left: 304px;
+    color: var(--grey);
+    font-size: var(--heading-6-font-size);
+    line-height: var(--heading-6-line-height);
+    position: absolute;
+    font-family: var(--heading-6-font-family);
+    font-weight: var(--heading-6-font-weight);
+    letter-spacing: var(--heading-6-letter-spacing);
+    font-style: var(--heading-6-font-style);
+}
+
+.desktop .text-wrapper-11 {
+    width: 328px;
+    top: 1158px;
+    left: 304px;
+    color: var(--grey);
+    font-size: var(--heading-6-font-size);
+    line-height: var(--heading-6-line-height);
+    position: absolute;
+    font-family: var(--heading-6-font-family);
+    font-weight: var(--heading-6-font-weight);
+    letter-spacing: var(--heading-6-letter-spacing);
+    font-style: var(--heading-6-font-style);
+}
+
+.desktop .element-2 {
+    width: 328px;
+    top: 809px;
+    left: 692px;
+    color: var(--grey);
+    font-size: var(--heading-6-font-size);
+    line-height: var(--heading-6-line-height);
+    position: absolute;
+    font-family: var(--heading-6-font-family);
+    font-weight: var(--heading-6-font-weight);
+    letter-spacing: var(--heading-6-letter-spacing);
+    font-style: var(--heading-6-font-style);
+}
+
+.desktop .text-wrapper-12 {
+    position: absolute;
+    width: 328px;
+    top: 1158px;
+    left: 692px;
+    font-family: var(--heading-6-font-family);
+    font-weight: var(--heading-6-font-weight);
+    color: var(--grey);
+    font-size: var(--heading-6-font-size);
+    letter-spacing: var(--heading-6-letter-spacing);
+    line-height: var(--heading-6-line-height);
+    font-style: var(--heading-6-font-style);
+}
+
+.desktop .text-wrapper-13 {
+    width: 328px;
+    top: 1158px;
+    left: 1079px;
+    color: var(--grey);
+    font-size: var(--heading-6-font-size);
+    line-height: var(--heading-6-line-height);
+    position: absolute;
+    font-family: var(--heading-6-font-family);
+    font-weight: var(--heading-6-font-weight);
+    letter-spacing: var(--heading-6-letter-spacing);
+    font-style: var(--heading-6-font-style);
+}
+
+.desktop .overlap-2 {
+    position: absolute;
+    width: 255px;
+    height: 783px;
+    top: 560px;
+    left: 25px;
+    background-color: var(--white);
+    border-radius: 3px;
+    border: 1px solid;
+    border-color: var(--grey);
+}
+
+.desktop .overlap-3 {
+    position: absolute;
+    width: 245px;
+    height: 53px;
+    top: 30px;
+    left: 7px;
+}
+
+.desktop .overlap-4 {
+    position: absolute;
+    width: 244px;
+    height: 53px;
+    top: 0;
+    left: 1px;
+}
+
+.desktop .text-wrapper-14 {
+    position: absolute;
+    top: 0;
+    left: 23px;
+    font-family: var(--heading-6-font-family);
+    font-weight: var(--heading-6-font-weight);
+    color: var(--grey);
+    font-size: var(--heading-6-font-size);
+    letter-spacing: var(--heading-6-letter-spacing);
+    line-height: var(--heading-6-line-height);
+    white-space: nowrap;
+    font-style: var(--heading-6-font-style);
+}
+
+.desktop .text-wrapper-15 {
+    width: 244px;
+    top: 15px;
+    left: 0;
+    color: var(--black);
+    font-size: var(--heading-5-font-size);
+    line-height: var(--heading-5-line-height);
+    position: absolute;
+    font-family: var(--heading-5-font-family);
+    font-weight: var(--heading-5-font-weight);
+    letter-spacing: var(--heading-5-letter-spacing);
+    font-style: var(--heading-5-font-style);
+}
+
+.desktop .group {
+    position: absolute;
+    width: 14px;
+    height: 9px;
+    top: 5px;
+    left: 0;
+}
+
+.desktop .text-wrapper-16 {
+    top: 118px;
+    position: absolute;
+    left: 30px;
+    font-family: var(--heading-6-font-family);
+    font-weight: var(--heading-6-font-weight);
+    color: var(--grey);
+    font-size: var(--heading-6-font-size);
+    letter-spacing: var(--heading-6-letter-spacing);
+    line-height: var(--heading-6-line-height);
+    white-space: nowrap;
+    font-style: var(--heading-6-font-style);
+}
+
+.desktop .text-wrapper-17 {
+    top: 235px;
+    position: absolute;
+    left: 30px;
+    font-family: var(--heading-6-font-family);
+    font-weight: var(--heading-6-font-weight);
+    color: var(--grey);
+    font-size: var(--heading-6-font-size);
+    letter-spacing: var(--heading-6-letter-spacing);
+    line-height: var(--heading-6-line-height);
+    white-space: nowrap;
+    font-style: var(--heading-6-font-style);
+}
+
+.desktop .text-wrapper-18 {
+    top: 373px;
+    position: absolute;
+    left: 30px;
+    font-family: var(--heading-6-font-family);
+    font-weight: var(--heading-6-font-weight);
+    color: var(--grey);
+    font-size: var(--heading-6-font-size);
+    letter-spacing: var(--heading-6-letter-spacing);
+    line-height: var(--heading-6-line-height);
+    white-space: nowrap;
+    font-style: var(--heading-6-font-style);
+}
+
+.desktop .text-wrapper-19 {
+    top: 487px;
+    position: absolute;
+    left: 30px;
+    font-family: var(--heading-6-font-family);
+    font-weight: var(--heading-6-font-weight);
+    color: var(--grey);
+    font-size: var(--heading-6-font-size);
+    letter-spacing: var(--heading-6-letter-spacing);
+    line-height: var(--heading-6-line-height);
+    white-space: nowrap;
+    font-style: var(--heading-6-font-style);
+}
+
+.desktop .text-wrapper-20 {
+    top: 615px;
+    position: absolute;
+    left: 30px;
+    font-family: var(--heading-6-font-family);
+    font-weight: var(--heading-6-font-weight);
+    color: var(--grey);
+    font-size: var(--heading-6-font-size);
+    letter-spacing: var(--heading-6-letter-spacing);
+    line-height: var(--heading-6-line-height);
+    white-space: nowrap;
+    font-style: var(--heading-6-font-style);
+}
+
+.desktop .line-2 {
+    position: absolute;
+    width: 254px;
+    height: 3px;
+    top: 93px;
+    left: 0;
+    object-fit: cover;
+}
+
+.desktop .line-3 {
+    position: absolute;
+    width: 255px;
+    height: 1px;
+    top: 208px;
+    left: -1px;
+    object-fit: cover;
+}
+
+.desktop .line-4 {
+    position: absolute;
+    width: 255px;
+    height: 2px;
+    top: 346px;
+    left: -1px;
+    object-fit: cover;
+}
+
+.desktop .line-5 {
+    position: absolute;
+    width: 255px;
+    height: 3px;
+    top: 457px;
+    left: -1px;
+    object-fit: cover;
+}
+
+.desktop .line-6 {
+    position: absolute;
+    width: 255px;
+    height: 3px;
+    top: 592px;
+    left: -1px;
+    object-fit: cover;
+}
+
+.desktop .line-7 {
+    position: absolute;
+    width: 255px;
+    height: 2px;
+    top: 728px;
+    left: -1px;
+    object-fit: cover;
+}
+
+.desktop .text-wrapper-21 {
+    width: 244px;
+    top: 136px;
+    left: 7px;
+    color: var(--black);
+    font-size: var(--heading-5-font-size);
+    line-height: var(--heading-5-line-height);
+    position: absolute;
+    font-family: var(--heading-5-font-family);
+    font-weight: var(--heading-5-font-weight);
+    letter-spacing: var(--heading-5-letter-spacing);
+    font-style: var(--heading-5-font-style);
+}
+
+.desktop .text-wrapper-22 {
+    width: 243px;
+    top: 253px;
+    left: 7px;
+    color: var(--black);
+    font-size: var(--heading-5-font-size);
+    line-height: var(--heading-5-line-height);
+    position: absolute;
+    font-family: var(--heading-5-font-family);
+    font-weight: var(--heading-5-font-weight);
+    letter-spacing: var(--heading-5-letter-spacing);
+    font-style: var(--heading-5-font-style);
+}
+
+.desktop .element-3 {
+    width: 238px;
+    top: 391px;
+    left: 7px;
+    color: var(--black);
+    font-size: var(--heading-5-font-size);
+    line-height: var(--heading-5-line-height);
+    position: absolute;
+    font-family: var(--heading-5-font-family);
+    font-weight: var(--heading-5-font-weight);
+    letter-spacing: var(--heading-5-letter-spacing);
+    font-style: var(--heading-5-font-style);
+}
+
+.desktop .text-wrapper-23 {
+    width: 242px;
+    top: 633px;
+    left: 7px;
+    color: var(--black);
+    font-size: var(--heading-5-font-size);
+    line-height: var(--heading-5-line-height);
+    position: absolute;
+    font-family: var(--heading-5-font-family);
+    font-weight: var(--heading-5-font-weight);
+    letter-spacing: var(--heading-5-letter-spacing);
+    font-style: var(--heading-5-font-style);
+}
+
+.desktop .NIDA-debate-camp {
+    width: 237px;
+    top: 505px;
+    left: 7px;
+    color: var(--black);
+    font-size: var(--heading-5-font-size);
+    line-height: var(--heading-5-line-height);
+    position: absolute;
+    font-family: var(--heading-5-font-family);
+    font-weight: var(--heading-5-font-weight);
+    letter-spacing: var(--heading-5-letter-spacing);
+    font-style: var(--heading-5-font-style);
+}
+
+.desktop .group-2 {
+    position: absolute;
+    width: 14px;
+    height: 9px;
+    top: 620px;
+    left: 8px;
+}
+
+.desktop .group-3 {
+    position: absolute;
+    width: 14px;
+    height: 9px;
+    top: 492px;
+    left: 6px;
+}
+
+.desktop .group-4 {
+    position: absolute;
+    width: 14px;
+    height: 9px;
+    top: 378px;
+    left: 6px;
+}
+
+.desktop .group-5 {
+    position: absolute;
+    width: 14px;
+    height: 9px;
+    top: 123px;
+    left: 6px;
+}
+
+.desktop .group-6 {
+    position: absolute;
+    width: 14px;
+    height: 9px;
+    top: 240px;
+    left: 6px;
+}
+
+.desktop .component {
+    position: absolute;
+    width: 88px;
+    height: 18px;
+    top: 751px;
+    left: 156px;
+}
+
+.desktop .text-wrapper-24 {
+    width: 88px;
+    top: -1px;
+    left: 0;
+    color: var(--black);
+    font-size: 12px;
+    line-height: 18px;
+    text-decoration: underline;
+    white-space: nowrap;
+    position: absolute;
+    font-family: "Roboto-Bold", Helvetica;
+    font-weight: 700;
+    letter-spacing: 0;
+}
+
+.desktop .overlap-5 {
+    position: absolute;
+    width: 255px;
+    height: 54px;
+    top: 506px;
+    left: 25px;
+    background-color: var(--purple-2);
+    border-radius: 3px;
+    border: 1px solid;
+    border-color: var(--grey);
+}
+
+.desktop .rectangle-16 {
+    position: absolute;
+    width: 255px;
+    height: 54px;
+    top: -1px;
+    left: -1px;
+    background-color: var(--purple-2);
+    border-radius: 3px;
+    border: 1px solid;
+    border-color: var(--grey);
+}
+
+.desktop .text-wrapper-25 {
+    width: 118px;
+    top: 9px;
+    left: 67px;
+    color: #ffffff;
+    font-size: var(--heading-4-font-size);
+    text-align: center;
+    line-height: var(--heading-4-line-height);
+    position: absolute;
+    font-family: var(--heading-4-font-family);
+    font-weight: var(--heading-4-font-weight);
+    letter-spacing: var(--heading-4-letter-spacing);
+    font-style: var(--heading-4-font-style);
+}
+
+.desktop .div-wrapper {
+    position: absolute;
+    width: 1103px;
+    height: 50px;
+    top: 506px;
+    left: 304px;
+    background-image: url(./img/rectangle-4274.svg);
+    background-size: 100% 100%;
+}
+
+.desktop .text-wrapper-26 {
+    width: 69px;
+    height: 22px;
+    top: 13px;
+    left: 517px;
+    color: var(--purple-2);
+    font-size: var(--heading-4-font-size);
+    text-align: center;
+    line-height: var(--heading-4-line-height);
+    white-space: nowrap;
+    position: absolute;
+    font-family: var(--heading-4-font-family);
+    font-weight: var(--heading-4-font-weight);
+    letter-spacing: var(--heading-4-letter-spacing);
+    font-style: var(--heading-4-font-style);
+}
+
+.desktop .overlap-6 {
+    position: absolute;
+    width: 427px;
+    height: 107px;
+    top: 2304px;
+    left: 980px;
+}
+
+.desktop .rectangle-17 {
+    position: absolute;
+    width: 427px;
+    height: 106px;
+    top: 0;
+    left: 0;
+    background-color: var(--white);
+}
+
+.desktop .text-wrapper-27 {
+    width: 155px;
+    top: 12px;
+    left: 0;
+    color: #000000;
+    font-size: 14px;
+    line-height: 21px;
+    text-decoration: underline;
+    white-space: nowrap;
+    position: absolute;
+    font-family: "Roboto-Bold", Helvetica;
+    font-weight: 700;
+    letter-spacing: 0;
+}
+
+.desktop .text-wrapper-28 {
+    width: 427px;
+    top: 39px;
+    left: 0;
+    color: var(--grey);
+    font-size: var(--heading-6-font-size);
+    line-height: var(--heading-6-line-height);
+    position: absolute;
+    font-family: var(--heading-6-font-family);
+    font-weight: var(--heading-6-font-weight);
+    letter-spacing: var(--heading-6-letter-spacing);
+    font-style: var(--heading-6-font-style);
+}
+
+.desktop .overlap-7 {
+    position: absolute;
+    width: 427px;
+    height: 125px;
+    top: 2304px;
+    left: 33px;
+}
+
+.desktop .rectangle-18 {
+    position: absolute;
+    width: 218px;
+    height: 53px;
+    top: 0;
+    left: 0;
+    background-color: var(--white);
+}
+
+.desktop .text-wrapper-29 {
+    position: absolute;
+    width: 310px;
+    top: 12px;
+    left: 0;
+    font-family: "Roboto-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 21px;
+    text-decoration: underline;
+}
+
+.desktop .text-wrapper-30 {
+    position: absolute;
+    width: 427px;
+    top: 57px;
+    left: 0;
+    font-family: var(--heading-6-font-family);
+    font-weight: var(--heading-6-font-weight);
+    color: var(--grey);
+    font-size: var(--heading-6-font-size);
+    letter-spacing: var(--heading-6-letter-spacing);
+    line-height: var(--heading-6-line-height);
+    font-style: var(--heading-6-font-style);
+}
+
+.desktop .overlap-8 {
+    position: absolute;
+    width: 427px;
+    height: 107px;
+    top: 2304px;
+    left: 508px;
+}
+
+.desktop .rectangle-19 {
+    position: absolute;
+    width: 179px;
+    height: 40px;
+    top: 0;
+    left: 0;
+    background-color: var(--white);
+}
+
+.desktop .text-wrapper-31 {
+    top: 2015px;
+    left: 33px;
+    color: var(--purple-2);
+    font-size: var(--heading-4-font-size);
+    line-height: var(--heading-4-line-height);
+    white-space: nowrap;
+    position: absolute;
+    font-family: var(--heading-4-font-family);
+    font-weight: var(--heading-4-font-weight);
+    letter-spacing: var(--heading-4-letter-spacing);
+    font-style: var(--heading-4-font-style);
+}
+
+.desktop .rectangle-20 {
+    position: absolute;
+    width: 427px;
+    height: 245px;
+    top: 2059px;
+    left: 33px;
+    object-fit: cover;
+}
+
+.desktop .rectangle-21 {
+    position: absolute;
+    width: 427px;
+    height: 245px;
+    top: 2059px;
+    left: 508px;
+    object-fit: cover;
+}
+
+.desktop .rectangle-22 {
+    position: absolute;
+    width: 427px;
+    height: 245px;
+    top: 2059px;
+    left: 980px;
+    object-fit: cover;
+}
+
+.desktop .text-wrapper-32 {
+    top: 2015px;
+    left: 1273px;
+    color: #000000;
+    font-size: 20px;
+    line-height: 30px;
+    text-decoration: underline;
+    white-space: nowrap;
+    position: absolute;
+    font-family: "Roboto-Bold", Helvetica;
+    font-weight: 700;
+    letter-spacing: 0;
+}
+
+.desktop .overlap-group-wrapper {
+    position: absolute;
+    width: 98px;
+    height: 89px;
+    top: 39px;
+    left: 1092px;
+}
+
+.desktop .overlap-group-2 {
+    position: relative;
+    width: 96px;
+    height: 89px;
+    background-color: var(--purple);
+    border-radius: 5px;
+    border: 4px solid;
+    border-color: var(--yellow);
+}
+
+.desktop .text-wrapper-33 {
+    width: 50px;
+    top: 59px;
+    left: 19px;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 21px;
+    text-decoration: underline;
+    white-space: nowrap;
+    position: absolute;
+    font-family: "Roboto-Bold", Helvetica;
+    font-weight: 700;
+    letter-spacing: 0;
+}
+
+.desktop .vector {
+    position: absolute;
+    width: 46px;
+    height: 29px;
+    top: 12px;
+    left: 25px;
+}
+
+.desktop .overlap-wrapper {
+    position: absolute;
+    width: 98px;
+    height: 89px;
+    top: 39px;
+    left: 1202px;
+}
+
+.desktop .text-wrapper-34 {
+    width: 50px;
+    top: 59px;
+    left: 19px;
+    color: var(--white);
+    font-size: 14px;
+    line-height: 21px;
+    text-decoration: underline;
+    white-space: nowrap;
+    position: absolute;
+    font-family: "Roboto-Bold", Helvetica;
+    font-weight: 700;
+    letter-spacing: 0;
+}
+
+.desktop .icon-truck {
+    position: absolute;
+    width: 47px;
+    height: 33px;
+    top: 14px;
+    left: 22px;
+}
+
+.desktop .group-7 {
+    position: absolute;
+    width: 98px;
+    height: 89px;
+    top: 40px;
+    left: 1311px;
+}
+
+.desktop .ICT {
+    width: 87px;
+    top: 41px;
+    left: 0;
+    color: var(--white);
+    font-size: var(--heading-5-font-size);
+    text-align: center;
+    line-height: var(--heading-5-line-height);
+    position: absolute;
+    font-family: var(--heading-5-font-family);
+    font-weight: var(--heading-5-font-weight);
+    letter-spacing: var(--heading-5-letter-spacing);
+    font-style: var(--heading-5-font-style);
+}
+
+.desktop .group-8 {
+    position: absolute;
+    width: 39px;
+    height: 30px;
+    top: 8px;
+    left: 24px;
+}
+
+.desktop .group-9 {
+    position: absolute;
+    width: 98px;
+    height: 89px;
+    top: 135px;
+    left: 1092px;
+}
+
+.desktop .text-wrapper-35 {
+    width: 46px;
+    top: 59px;
+    left: 21px;
+    color: var(--white);
+    font-size: 14px;
+    line-height: 21px;
+    text-decoration: underline;
+    white-space: nowrap;
+    position: absolute;
+    font-family: "Roboto-Bold", Helvetica;
+    font-weight: 700;
+    letter-spacing: 0;
+}
+
+.desktop .icon-note {
+    position: absolute;
+    width: 34px;
+    height: 33px;
+    top: 12px;
+    left: 27px;
+}
+
+.desktop .group-10 {
+    position: absolute;
+    width: 98px;
+    height: 89px;
+    top: 135px;
+    left: 1202px;
+}
+
+.desktop .text-wrapper-36 {
+    width: 86px;
+    top: 59px;
+    left: 1px;
+    color: var(--white);
+    font-size: 14px;
+    text-align: center;
+    line-height: 21px;
+    text-decoration: underline;
+    white-space: nowrap;
+    position: absolute;
+    font-family: "Roboto-Bold", Helvetica;
+    font-weight: 700;
+    letter-spacing: 0;
+}
+
+.desktop .icon-send {
+    position: absolute;
+    width: 44px;
+    height: 30px;
+    top: 15px;
+    left: 20px;
+}
+
+.desktop .group-11 {
+    position: absolute;
+    width: 98px;
+    height: 89px;
+    top: 135px;
+    left: 1311px;
+}
+
+.desktop .UP-e-DOCUMENT {
+    position: absolute;
+    width: 90px;
+    top: 38px;
+    left: 0;
+    font-family: "Roboto-Bold", Helvetica;
+    font-weight: 700;
+    color: var(--white);
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 21px;
+    text-decoration: underline;
+}
+
+.desktop .icon-book-saved {
+    position: absolute;
+    width: 38px;
+    height: 24px;
+    top: 9px;
+    left: 22px;
+}
+
+.desktop .group-12 {
+    position: absolute;
+    width: 98px;
+    height: 89px;
+    top: 231px;
+    left: 1092px;
+}
+
+.desktop .overlap-9 {
+    position: relative;
+    width: 96px;
+    height: 89px;
+    background-image: url(./img/rectangle-69.svg);
+    background-size: 100% 100%;
+}
+
+.desktop .text-wrapper-37 {
+    position: absolute;
+    width: 70px;
+    top: 62px;
+    left: 13px;
+    font-family: "Roboto-Bold", Helvetica;
+    font-weight: 700;
+    color: var(--white);
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 21px;
+    text-decoration: underline;
+    white-space: nowrap;
+}
+
+.desktop .icon-people {
+    position: absolute;
+    width: 40px;
+    height: 32px;
+    top: 16px;
+    left: 28px;
+}
+
+.desktop .component-2 {
+    position: absolute;
+    width: 184px;
+    height: 60px;
+    top: 2511px;
+    left: 33px;
+    background-color: #d9d9d9;
+}
+
+.desktop .text-wrapper-38 {
+    width: 97px;
+    top: 19px;
+    left: 28px;
+    color: #000000;
+    font-size: var(--heading-5-font-size);
+    line-height: var(--heading-5-line-height);
+    white-space: nowrap;
+    position: absolute;
+    font-family: var(--heading-5-font-family);
+    font-weight: var(--heading-5-font-weight);
+    letter-spacing: var(--heading-5-letter-spacing);
+    font-style: var(--heading-5-font-style);
+}
+
+.desktop .component-3 {
+    position: absolute;
+    width: 184px;
+    height: 60px;
+    top: 2584px;
+    left: 33px;
+    background-color: var(--grey);
+}
+
+.desktop .text-wrapper-39 {
+    width: 116px;
+    top: 19px;
+    left: 28px;
+    color: var(--black);
+    font-size: var(--heading-5-font-size);
+    line-height: var(--heading-5-line-height);
+    white-space: nowrap;
+    position: absolute;
+    font-family: var(--heading-5-font-family);
+    font-weight: var(--heading-5-font-weight);
+    letter-spacing: var(--heading-5-letter-spacing);
+    font-style: var(--heading-5-font-style);
+}
+
+.desktop .component-4 {
+    position: absolute;
+    width: 184px;
+    height: 60px;
+    top: 2657px;
+    left: 33px;
+    background-color: #d9d9d9;
+}
+
+.desktop .text-wrapper-40 {
+    width: 126px;
+    top: 19px;
+    left: 28px;
+    color: #000000;
+    font-size: var(--heading-5-font-size);
+    line-height: var(--heading-5-line-height);
+    white-space: nowrap;
+    position: absolute;
+    font-family: var(--heading-5-font-family);
+    font-weight: var(--heading-5-font-weight);
+    letter-spacing: var(--heading-5-letter-spacing);
+    font-style: var(--heading-5-font-style);
+}
+
+.desktop .component-5 {
+    position: absolute;
+    width: 184px;
+    height: 60px;
+    top: 2730px;
+    left: 33px;
+    background-color: #d9d9d9;
+}
+
+.desktop .text-wrapper-41 {
+    width: 61px;
+    top: 20px;
+    left: 28px;
+    color: #000000;
+    font-size: var(--heading-5-font-size);
+    line-height: var(--heading-5-line-height);
+    white-space: nowrap;
+    position: absolute;
+    font-family: var(--heading-5-font-family);
+    font-weight: var(--heading-5-font-weight);
+    letter-spacing: var(--heading-5-letter-spacing);
+    font-style: var(--heading-5-font-style);
+}
+
+.desktop .creative {
+    position: absolute;
+    width: 1054px;
+    height: 455px;
+    top: 39px;
+    left: 26px;
+}
+
+.desktop .overlap-10 {
+    position: relative;
+    height: 455px;
+}
+
+.desktop .clip-path-group {
+    position: absolute;
+    width: 1052px;
+    height: 454px;
+    top: 0;
+    left: 1px;
+}
+
+.desktop .clip-path-group-2 {
+    position: absolute;
+    width: 259px;
+    height: 113px;
+    top: 0;
+    left: 216px;
+}
+
+.desktop .clip-path-group-3 {
+    position: absolute;
+    width: 297px;
+    height: 135px;
+    top: 319px;
+    left: 1px;
+}
+
+.desktop .clip-path-group-4 {
+    position: absolute;
+    width: 115px;
+    height: 208px;
+    top: 103px;
+    left: 1px;
+}
+
+.desktop .mask-group {
+    position: absolute;
+    width: 1054px;
+    height: 455px;
+    top: 0;
+    left: 0;
+}
+
+.desktop .clip-path-group-5 {
+    position: absolute;
+    width: 245px;
+    height: 136px;
+    top: 316px;
+    left: 808px;
+}
+
+.desktop .clip-path-group-6 {
+    position: absolute;
+    width: 165px;
+    height: 96px;
+    top: 1px;
+    left: 1px;
+}
+
+.desktop .clip-path-group-7 {
+    position: absolute;
+    width: 250px;
+    height: 314px;
+    top: 140px;
+    left: 1px;
+}
+
+.desktop .clip-path-group-8 {
+    position: absolute;
+    width: 286px;
+    height: 227px;
+    top: 227px;
+    left: 763px;
+}
+
+.desktop .group-13 {
+    position: absolute;
+    width: 17px;
+    height: 34px;
+    top: 145px;
+    left: 95px;
+}
+
+.desktop .group-14 {
+    position: absolute;
+    width: 17px;
+    height: 34px;
+    top: 145px;
+    left: 113px;
+}
+
+.desktop .group-15 {
+    position: absolute;
+    width: 17px;
+    height: 34px;
+    top: 145px;
+    left: 132px;
+}
+
+.desktop .group-16 {
+    position: absolute;
+    width: 17px;
+    height: 34px;
+    top: 145px;
+    left: 151px;
+}
+
+.desktop .group-17 {
+    position: absolute;
+    width: 17px;
+    height: 34px;
+    top: 145px;
+    left: 171px;
+}
+
+.desktop .group-18 {
+    position: absolute;
+    width: 14px;
+    height: 34px;
+    top: 145px;
+    left: 190px;
+}
+
+.desktop .group-19 {
+    position: absolute;
+    width: 17px;
+    height: 34px;
+    top: 145px;
+    left: 214px;
+}
+
+.desktop .group-20 {
+    position: absolute;
+    width: 14px;
+    height: 34px;
+    top: 145px;
+    left: 234px;
+}
+
+.desktop .group-21 {
+    position: absolute;
+    width: 6px;
+    height: 34px;
+    top: 145px;
+    left: 258px;
+}
+
+.desktop .group-22 {
+    position: absolute;
+    width: 17px;
+    height: 34px;
+    top: 145px;
+    left: 268px;
+}
+
+.desktop .group-23 {
+    position: absolute;
+    width: 14px;
+    height: 34px;
+    top: 145px;
+    left: 287px;
+}
+
+.desktop .group-24 {
+    position: absolute;
+    width: 17px;
+    height: 34px;
+    top: 145px;
+    left: 303px;
+}
+
+.desktop .group-25 {
+    position: absolute;
+    width: 16px;
+    height: 34px;
+    top: 145px;
+    left: 322px;
+}
+
+.desktop .group-26 {
+    position: absolute;
+    width: 26px;
+    height: 34px;
+    top: 145px;
+    left: 341px;
+}
+
+.desktop .group-27 {
+    position: absolute;
+    width: 18px;
+    height: 34px;
+    top: 145px;
+    left: 369px;
+}
+
+.desktop .group-28 {
+    position: absolute;
+    width: 15px;
+    height: 34px;
+    top: 145px;
+    left: 388px;
+}
+
+.desktop .group-29 {
+    position: absolute;
+    width: 6px;
+    height: 34px;
+    top: 145px;
+    left: 404px;
+}
+
+.desktop .group-30 {
+    position: absolute;
+    width: 17px;
+    height: 34px;
+    top: 145px;
+    left: 413px;
+}
+
+.desktop .group-31 {
+    position: absolute;
+    width: 17px;
+    height: 34px;
+    top: 145px;
+    left: 432px;
+}
+
+.desktop .group-32 {
+    position: absolute;
+    width: 18px;
+    height: 34px;
+    top: 145px;
+    left: 460px;
+}
+
+.desktop .group-33 {
+    position: absolute;
+    width: 17px;
+    height: 34px;
+    top: 145px;
+    left: 480px;
+}
+
+.desktop .group-34 {
+    position: absolute;
+    width: 17px;
+    height: 34px;
+    top: 145px;
+    left: 500px;
+}
+
+.desktop .group-35 {
+    position: absolute;
+    width: 17px;
+    height: 34px;
+    top: 145px;
+    left: 528px;
+}
+
+.desktop .group-36 {
+    position: absolute;
+    width: 17px;
+    height: 34px;
+    top: 145px;
+    left: 547px;
+}
+
+.desktop .group-37 {
+    position: absolute;
+    width: 26px;
+    height: 34px;
+    top: 145px;
+    left: 566px;
+}
+
+.desktop .group-38 {
+    position: absolute;
+    width: 26px;
+    height: 34px;
+    top: 145px;
+    left: 595px;
+}
+
+.desktop .group-39 {
+    position: absolute;
+    width: 16px;
+    height: 34px;
+    top: 145px;
+    left: 624px;
+}
+
+.desktop .group-40 {
+    position: absolute;
+    width: 17px;
+    height: 34px;
+    top: 145px;
+    left: 643px;
+}
+
+.desktop .group-41 {
+    position: absolute;
+    width: 6px;
+    height: 34px;
+    top: 145px;
+    left: 663px;
+}
+
+.desktop .group-42 {
+    position: absolute;
+    width: 17px;
+    height: 34px;
+    top: 145px;
+    left: 671px;
+}
+
+.desktop .group-43 {
+    position: absolute;
+    width: 18px;
+    height: 34px;
+    top: 145px;
+    left: 689px;
+}
+
+.desktop .group-44 {
+    position: absolute;
+    width: 15px;
+    height: 34px;
+    top: 145px;
+    left: 708px;
+}
+
+.desktop .group-45 {
+    position: absolute;
+    width: 6px;
+    height: 34px;
+    top: 145px;
+    left: 725px;
+}
+
+.desktop .group-46 {
+    position: absolute;
+    width: 17px;
+    height: 34px;
+    top: 145px;
+    left: 734px;
+}
+
+.desktop .group-47 {
+    position: absolute;
+    width: 17px;
+    height: 34px;
+    top: 145px;
+    left: 753px;
+}
+
+.desktop .group-48 {
+    position: absolute;
+    width: 15px;
+    height: 34px;
+    top: 145px;
+    left: 781px;
+}
+
+.desktop .group-49 {
+    position: absolute;
+    width: 14px;
+    height: 34px;
+    top: 145px;
+    left: 797px;
+}
+
+.desktop .group-50 {
+    position: absolute;
+    width: 17px;
+    height: 34px;
+    top: 145px;
+    left: 813px;
+}
+
+.desktop .group-51 {
+    position: absolute;
+    width: 17px;
+    height: 34px;
+    top: 145px;
+    left: 832px;
+}
+
+.desktop .group-52 {
+    position: absolute;
+    width: 17px;
+    height: 34px;
+    top: 145px;
+    left: 852px;
+}
+
+.desktop .group-53 {
+    position: absolute;
+    width: 17px;
+    height: 34px;
+    top: 145px;
+    left: 871px;
+}
+
+.desktop .group-54 {
+    position: absolute;
+    width: 14px;
+    height: 34px;
+    top: 145px;
+    left: 890px;
+}
+
+.desktop .group-55 {
+    position: absolute;
+    width: 17px;
+    height: 34px;
+    top: 145px;
+    left: 906px;
+}
+
+.desktop .group-56 {
+    position: absolute;
+    width: 17px;
+    height: 34px;
+    top: 145px;
+    left: 925px;
+}
+
+.desktop .group-57 {
+    position: absolute;
+    width: 17px;
+    height: 34px;
+    top: 145px;
+    left: 943px;
+}
+
+.desktop .group-58 {
+    position: absolute;
+    width: 28px;
+    height: 58px;
+    top: 203px;
+    left: 300px;
+}
+
+.desktop .group-59 {
+    position: absolute;
+    width: 28px;
+    height: 58px;
+    top: 203px;
+    left: 333px;
+}
+
+.desktop .group-60 {
+    position: absolute;
+    width: 11px;
+    height: 58px;
+    top: 203px;
+    left: 366px;
+}
+
+.desktop .group-61 {
+    position: absolute;
+    width: 30px;
+    height: 58px;
+    top: 203px;
+    left: 380px;
+}
+
+.desktop .group-62 {
+    position: absolute;
+    width: 24px;
+    height: 58px;
+    top: 203px;
+    left: 413px;
+}
+
+.desktop .group-63 {
+    position: absolute;
+    width: 28px;
+    height: 58px;
+    top: 203px;
+    left: 441px;
+}
+
+.desktop .group-64 {
+    position: absolute;
+    width: 29px;
+    height: 59px;
+    top: 202px;
+    left: 489px;
+}
+
+.desktop .group-65 {
+    position: absolute;
+    width: 23px;
+    height: 58px;
+    top: 203px;
+    left: 522px;
+}
+
+.desktop .group-66 {
+    position: absolute;
+    width: 28px;
+    height: 58px;
+    top: 203px;
+    left: 565px;
+}
+
+.desktop .group-67 {
+    position: absolute;
+    width: 29px;
+    height: 58px;
+    top: 203px;
+    left: 596px;
+}
+
+.desktop .group-68 {
+    position: absolute;
+    width: 31px;
+    height: 58px;
+    top: 203px;
+    left: 628px;
+}
+
+.desktop .group-69 {
+    position: absolute;
+    width: 29px;
+    height: 58px;
+    top: 203px;
+    left: 660px;
+}
+
+.desktop .group-70 {
+    position: absolute;
+    width: 31px;
+    height: 58px;
+    top: 203px;
+    left: 691px;
+}
+
+.desktop .group-71 {
+    position: absolute;
+    width: 29px;
+    height: 59px;
+    top: 202px;
+    left: 725px;
+}

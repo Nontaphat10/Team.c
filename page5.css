@@ -1,0 +1,155 @@
+#navbar{
+    background-color: rgba(120, 40, 253, 1);
+}
+#footer{
+    background-color: rgba(61, 61, 61, 1);
+    width: auto;
+    padding-bottom: 10px;
+}
+#line-center{
+    border: 2px solid white;
+    margin-top: 30px;
+}
+#text{
+    margin-top: -20px;
+    padding-bottom: 2px;
+    background-color: rgba(61, 61, 61, 1);
+    width: 200px;
+    border: 3px solid white;
+    text-align: center;
+}
+#text-center{
+    display: flex;
+    justify-content: center;
+}
+#footer-link{
+    display: flex;
+    padding-top: 50px;
+    justify-content: center;
+}
+#ict-green-office{
+    background-color: rgba(52, 168, 83, 1);
+    width: 170px;
+    text-decoration: none;
+}
+#block1{
+    background-color: rgba(61, 61, 61, 1);
+}
+#block2{
+    background-color: rgba(61, 61, 61, 1);
+}
+#block3{
+    background-color: rgba(61, 61, 61, 1);
+}
+#block4{
+    background-color: rgba(61, 61, 61, 1);
+}
+#circle{
+    border: 5px solid white;
+    border-radius: 100%;
+    width: 80px;
+    height: 80px;
+}
+#circle_off-side{
+    display: flex;
+    justify-content: center;
+    margin-top: -110px;
+}
+#link-to-top{
+    margin-top: -40px;
+}
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+
+.dropdown>.dropdown-toggle:active {
+  /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+#line-top{
+    border: 2px solid rgba(0, 0, 0, 0.2);
+}
+#menu{
+    display: flex;
+    justify-content: start;
+    margin-left: 7%;
+}
+
+#m1{
+    color:  rgba(120, 40, 253, 1);
+    height: 50px;
+    width: 160px;
+}
+#m2{
+
+    height: 50px;
+    width: 160px;
+}
+#m3{
+
+    height: 50px;
+    width: 170px;
+}
+#m4{
+    height: 50px;
+    width: 160px;
+}
+#tag-top{
+    display: flex;
+    justify-content: start;
+    margin-left: 7%;
+}
+#tag{
+    border: 2px solid rgba(120, 40, 253, 1);
+    width: 70%;
+}
+#tag-t{
+    width: 160px;
+    height: 1px;
+    margin-top: -8px;
+}
+#blockmenu{
+    justify-content: start;
+}
+#blank{
+    width: 160px;
+    height: 1px;
+}
+.block-left{
+    border: 2px solid black;
+    width: 50%;
+    margin-bottom: 20px;
+}
+.block-right{
+    border: 2px solid black;
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+#line-partition{
+    border: 2px solid rgba(253, 240, 40, 1);
+}
+#choice-left1{
+
+    border-radius: 0px;
+    width: 90%;
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+#choice-left2{
+
+    border-radius: 0px;
+    width: 90%;
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+#choice-left3{
+
+    border-radius: 0px;
+    width: 90%;
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+#block-right{
+    border-top: 3px solid rgba(0, 0, 0, 0.2);
+}

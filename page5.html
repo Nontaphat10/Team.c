@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="page5.css">
+</head>
+    <title>หลักสูตรที่เปิดสอน</title>
+<body>
+    <nav class="navbar navbar-expand-lg " id="navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="page1.html">
+                <img src="picture/logo.png" alt="Bootstrap"  height="35">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav"    aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarNav">
+                <ul class="navbar-nav ms-auto ">
+                    <li class="nav-item">
+                        <div class="dropdown">
+                            <a class="nav-link text-white" href="page1.html">หน้าแรก</a>
+                    </li>
+                    <li class="nav-item">
+                        <div class="dropdown">
+                            <button
+                              class="btn text-white "
+                              type="button"
+                              id="dropdownMenuButton"
+                              data-mdb-toggle="dropdown"
+                              aria-expanded="false"
+                            >
+                              ข้อมูลคณะ
+                            </button>
+                            <ul class="dropdown-menu bg-secondary-subtle" id="bg" aria-labelledby="dropdownMenuButton">
+                              <li><a class="dropdown-item " href="https://ict.up.ac.th/web/main/information">แนะนำคณะ</a></li>
+                              <li><a class="dropdown-item " href="https://ict.up.ac.th/web/operation">การดำเนินงานคณะ</a></li>
+                              <li><a class="dropdown-item " href="https://ict.up.ac.th/web/main/annualreport">รายงานประจำปี</a></li>
+                              <li><a class="dropdown-item " href="https://ict.up.ac.th/web/main/newsletter">จดหมายข่าว</a></li>
+                            </ul>
+                          </div>
+                    </li>
+                    <li class="nav-item">
+                        <div class="dropdown">
+                            <button
+                              class="btn text-white "
+                              type="button"
+                              id="dropdownMenuButton"
+                              data-mdb-toggle="dropdown"
+                              aria-expanded="false"
+                            >
+                              <a class="text-decoration-none text-white" href="page5.html">หลักสูตรที่เปิดสอน</a>
+                            </button>
+                            <ul class="dropdown-menu bg-secondary-subtle" id="bg" aria-labelledby="dropdownMenuButton">
+                                <li><a class="dropdown-item bg-warning">หลักสูตรปริญญาตรี</a></li>
+                              <li><a class="dropdown-item " href="https://ict.up.ac.th/web/admission/curriculum/db">หลักสูตรบริหารธุรกิจบัณฑิต สาขาวิชาธุรกิจดิจิทัล</a></li>
+                              <li><a class="dropdown-item " href="https://ict.up.ac.th/web/admission/curriculum/it">หลักสูตรวิทยาศาสตรบัณฑิต สาขาวิชาเทคโนโลยีสารสนเทศ</a></li>
+                              <li><a class="dropdown-item " href="https://ict.up.ac.th/web/admission/curriculum/gis">หลักสูตรวิทยาศาสตรบัณฑิต สาขาวิชาภูมิสารสนเทศศาสตร์</a></li>
+                              <li><a class="dropdown-item " href="https://ict.up.ac.th/web/admission/curriculum/cs">หลักสูตรวิทยาศาสตรบัณฑิต สาขาวิชาวิทยาการคอมพิวเตอร์</a></li>
+                              <li><a class="dropdown-item " href="https://ict.up.ac.th/web/admission/curriculum/dsa">หลักสูตรวิทยาศาสตรบัณฑิต สาขาวิชาวิทยาการข้อมูลและการประยุกต์</a></li>
+                              <li><a class="dropdown-item " href="https://ict.up.ac.th/web/admission/curriculum/cpe">หลักสูตรวิศวกรรมศาสตรบัณฑิต สาขาวิชาวิศวกรรมคอมพิวเตอร์</a></li>
+                              <li><a class="dropdown-item " href="https://ict.up.ac.th/web/admission/curriculum/se">หลักสูตรวิศวกรรมศาสตรบัณฑิต สาขาวิชาวิศวกรรมซอฟต์แวร์</a></li>
+                              <li><a class="dropdown-item " href="https://ict.up.ac.th/web/admission/curriculum/cgmt">หลักสูตรศิลปกรรมศาสตรบัณฑิต สาขาวิชาคอมพิวเตอร์กราฟิกและมัลติมีเดีย</a></li>
+                              <li><a class="dropdown-item dropdown-item bg-warning">หลักสูตระดับปริญญาตรีคู่ขนาน 2 ปริญญา</a></li>
+                              <li><a class="dropdown-item " href="https://ict.up.ac.th/web/main/newsletter">หลักสูตรวิทยาศาสตรบัณฑิต สาขาวิชาเทคโนโลยีสารสนเทศ
+                                และหลักสูตรศิลปศาสตรบัณฑิต สาขาวิชาภาษาอังกฤษ</a></li>
+                                <li><a class="dropdown-item dropdown-item bg-warning">หลักสูตระดับปริญญาโท ระยะเวลาศึกษา 2 ปี</a></li>
+                              <li><a class="dropdown-item " href="https://ict.up.ac.th/web/admission/curriculum/gisapply">หลักสูตรวิทยาศาสตรมหาบัณฑิต สาขาวิชาภูมิสารสนเทศประยุกต์</a></li>
+                              <li><a class="dropdown-item " href="https://ict.up.ac.th/web/admission/curriculum/midm">หลักสูตรวิทยาศาสตรมหาบัณฑิต สาขาวิชาการจัดการเทคโนโลยีและข้อมูลดิจิทัล</a></li>
+                              <li><a class="dropdown-item " href="https://ict.up.ac.th/web/admission/curriculum/mcpe">หลักสูตรวิทยาศาสตรมหาบัณฑิต สาขาวิชาวิศวกรรมคอมพิวเตอร์</a></li>
+                              <li><a class="dropdown-item dropdown-item bg-warning">หลักสูตระดับปริญญาเอก ระยะเวลาศึกษา 3 ปี</a></li>
+                              <li><a class="dropdown-item " href="https://ict.up.ac.th/web/admission/curriculum/gisapplydoctor">หลักสูตรปรัชญาดุษฎีบัณฑิต สาขาวิชาภูมิสารสนเทศประยุกต์</a></li>
+                            </ul>
+                          </div>
+                    </li>
+                    <li class="nav-item">
+                        <div class="dropdown">
+                            <button
+                              class="btn text-white "
+                              type="button"
+                              id="dropdownMenuButton"
+                              data-mdb-toggle="dropdown"
+                              aria-expanded="false"
+                            >
+                              นิสิต
+                            </button>
+                            <ul class="dropdown-menu bg-secondary-subtle" id="bg" aria-labelledby="dropdownMenuButton">
+                              <li><a class="dropdown-item " href="https://ict.up.ac.th/coop/">ฝึกประสบการณ์วิชาชีพ</a></li>
+                              <li><a class="dropdown-item " href="https://dev.coop.ict.up.ac.th/">ระบบบริหารจัดการโครงการสหกิจศึกษา</a></li>
+                              <li><a class="dropdown-item " href="https://ict.up.ac.th/web/student/sqict">พัฒนานิสิต</a></li>
+                              <li><a class="dropdown-item " href="https://ict.up.ac.th/web/student/informationsystem">ระบบสารสนเทศ</a></li>
+                            </ul>
+                          </div>
+                    </li>
+                    <li class="nav-item">
+                        <div class="dropdown">
+                            <button
+                              class="btn text-white "
+                              type="button"
+                              id="dropdownMenuButton"
+                              data-mdb-toggle="dropdown"
+                              aria-expanded="false"
+                            >
+                              ศิษย์เก่า
+                            </button>
+                            <ul class="dropdown-menu bg-secondary-subtle" id="bg" aria-labelledby="dropdownMenuButton">
+                              <li><a class="dropdown-item " href="https://ict.up.ac.th/alumni/">ระบบสารสนเทศศิษย์เก่า</a></li>
+                            </ul>
+                          </div>
+                    </li>
+                    <li class="nav-item">
+                        <div class="dropdown">
+                            <button
+                              class="btn text-white "
+                              type="button"
+                              id="dropdownMenuButton"
+                              data-mdb-toggle="dropdown"
+                              aria-expanded="false"
+                            >
+                              บุคลากร
+                            </button>
+                            <ul class="dropdown-menu bg-secondary-subtle" id="bg" aria-labelledby="dropdownMenuButton">
+                              <li><a class="dropdown-item " href="https://ict.up.ac.th/web/personnel/department">หน่วยงานภายใน</a></li>
+                              <li><a class="dropdown-item " href="https://ict.up.ac.th/web/personnel/major">สาขาวิชา</a></li>
+                              <li><a class="dropdown-item " href="https://ict.up.ac.th/web/personnel/download">ขั้นตอนการให้บริการและดาวน์โหลดเอกสาร</a></li>
+                              <li><a class="dropdown-item " href="https://ict.up.ac.th/web/operation/workmanual">คู่มือการให้บริการ</a></li>
+                              <li><a class="dropdown-item " href="https://ict.up.ac.th/web/personnel/informationsystem">ระบบสารสนเทศ</a></li>
+                            </ul>
+                          </div>
+                    </li>
+                    <li class="nav-item">
+                        <div class="dropdown">
+                            <button
+                              class="btn text-white "
+                              type="button"
+                              id="dropdownMenuButton"
+                              data-mdb-toggle="dropdown"
+                              aria-expanded="false"
+                            >
+                              วิจัย
+                            </button>
+                            <ul class="dropdown-menu bg-secondary-subtle" id="bg" aria-labelledby="dropdownMenuButton">
+                              <li><a class="dropdown-item " href="https://ph01.tci-thaijo.org/index.php/jsid/index">วารสารวิชาการ ( JSID )</a></li>
+                              <li><a class="dropdown-item " href="https://ict.up.ac.th/web/research/academicservice">บริการวิชาการ]</a></li>
+                            </ul>
+                          </div>
+                    </li>
+                    <li class="nav-item">
+                        <div class="dropdown">
+                            <button
+                              class="btn text-white "
+                              type="button"
+                              id="dropdownMenuButton"
+                              data-mdb-toggle="dropdown"
+                              aria-expanded="false"
+                            >
+                              มาตราการ COVID-19
+                            </button>
+                            <ul class="dropdown-menu bg-secondary-subtle" id="bg" aria-labelledby="dropdownMenuButton">
+                              <li><a class="dropdown-item " href="https://ict.up.ac.th/web/newseventict/943">มาตราการเฝ้าระวังในช่วงสถาณการณ์ COVID-19</a></li>
+                              <li><a class="dropdown-item " href="https://ict.up.ac.th/web/student/covid19">มาตราการเกี่ยวกับนิสิตในชวงสถาณการณ์ COVID-19</a></li>
+                            </ul>
+                          </div>
+                    </li>
+                    <li class="nav-item me-3">
+                        <div class="dropdown">
+                            <button
+                              class="btn text-white "
+                              type="button"
+                              id="dropdownMenuButton"
+                              data-mdb-toggle="dropdown"
+                              aria-expanded="false"
+                            >
+                              เกี่ยวกับเรา
+                            </button>
+                            <ul class="dropdown-menu bg-secondary-subtle" id="bg" aria-labelledby="dropdownMenuButton">
+                              <li><a class="dropdown-item " href="https://ict.up.ac.th/web/complainflow">ขั้นตอนการดำเนินการเกี่ยวกับเรื่องร้องเรียนของ<br>คณะ ICT</a></li>
+                              <li><a class="dropdown-item " href="https://ict.up.ac.th/web/complain">แจ้งเรื่องร้องเรียนการทุจริตและการประพฤตินิยม</a></li>
+                              <li><a class="dropdown-item " href="https://ict.up.ac.th/web/faq">คำถามที่พบบ่อย</a></li>
+                              <li><a class="dropdown-item " href="https://docs.google.com/forms/d/e/1FAIpQLSd-u3sqHUPPwChEg1ugzI5o18loboPb3bluNV1aov35tM7RdQ/viewform">แบบสำรวจความพึงพอใจผู้ใช้เว็บไซต์</a></li>
+                              <li><a class="dropdown-item " href="https://ict.up.ac.th/web/sitemap">ผังเว็บไซต์</a></li>
+                              <li><a class="dropdown-item " href="https://ict.up.ac.th/web/contact">ติดต่อคณบดี</a></li>
+                            </ul>
+                          </div>
+                    </li>
+                    <form class="d-flex me-2 " role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      </form>
+                </ul>
+            </div>
+        </div>
+      </nav>
+     
+      
+
+
+      <!-- พื้นที่เขียนโค้ด -->
+      
+    <div class="container">
+      <p style="font-size: larger;" class="mt-4"><a href="page1.html" class="text-decoration-none text-dark">หน้าแรก</a> &rarr; หลักสูตรที่เปิดสอน</p>
+    </div>
+    <div id="line-top"></div>
+    <div id="blockmenu" class="">
+      <div id="tag-top" >
+        <a id="tag-t" class=" btn fs-5 d-flex justify-content-center">
+          <div id="tag" ></div>
+        </a>
+        <a id="tag-t" class=" btn fs-5 ">
+          <div  ></div>
+        </a>
+        <a id="tag-t" class=" btn fs-5 ">
+          <div ></div>
+        </a>
+        <a id="tag-t" class=" btn fs-5 ">
+          <div  ></div>
+        </a>
+      </div>    
+      <div id="menu" class="mt-2">
+        <a href="" class="btn fs-5 text-decoration-none" id="m1"><b>หลักสูตร</b></a>
+        <a href="" class="btn fs-5 text-decoration-none text-dark" id="m2"><b>กิจกรรมคณะ</b></a>
+        <a href="" class="btn fs-5 text-decoration-none text-dark" id="m3"><b>ประกาศข่าวสาร</b></a>
+        <a href="" class="btn fs-5 text-decoration-none text-dark" id="m4"><b>ติดต่อคณะ</b></a>
+      </div> 
+      <div class="mt-3">
+        <img src="picture/bg_page5.png" width="100%" class="img-fluid" alt="...">
+      </div>
+    </div>
+    <div class="d-flex justify-content-center mt-5 ms-4 mb-2 ">
+      <div class="row container">
+          <div class="col-4"></div>
+          <div class="col-8 ">
+              <a class="text-decoration-none btn fs-5" id="h_menu1" onmouseover="hover1()" onmouseout="m_out1()" href="#" >ผู้สนใจเข้าศึกษา</a>
+              <a class="text-decoration-none btn fs-5" id="h_menu2" onmouseover="hover2()" onmouseout="m_out2()" href="#" >ฝึกประสบการณ์วิชาชีพ</a>
+              <a class="text-decoration-none btn fs-5" id="h_menu3" onmouseover="hover3()" onmouseout="m_out3()" href="#" >ระะบบสารสนเทศสมัครเข้าศึกษา</a>
+          </div>
+      </div>
+  </div>
+  <div class="d-flex justify-content-center">
+      <div class="row container">
+          <div class="d-flex">
+              <div class="col-4   text-center">
+                  <a class="btn pt-3 fs-4 mb-2" id="choice-left1" onclick="select1()"       >หลักสูตรปริญญาตรี</a>
+                  <a class="btn pt-3 fs-4 mt-2 mb-2" id="choice-left2" onclick="select2()"  >หลักสูตรปริญญาโท</a>
+                  <a class="btn pt-3 fs-4 mt-2 mb-2" id="choice-left3" onclick="select3()"  >หลักสูตรปริญญาเอก</a>
+              </div>
+              <div id="line-partition"></div>
+              <div class="col-8  ms-4 mb-5" id="block-right ">
+                  <div id="choice-data">
+                  
+                  </div>
+              </div>
+          </div>
+          
+      </div>
+  </div>
+  <br><br><br>
+
+    <!-- พื้นที่เขียนโค้ด -->
+
+    <div class="card text-white " id="footer">
+        <div id="line-center"></div>
+        <div id="text-center">
+            <div class=" fs-5 " id="text">ศึกษาต่อคณะ ICT</div>
+        </div>
+        <div id="footer-link" class="nav">
+            <div  style="width: 22rem; height: 480px;" id="block1">
+                <p style="font-size: 20px; text-align: center;" class="text-white">คณะเทคโนโลยีสารสนเทศและการสื่อสารมหาวิทยาลัยพะเยา</p>
+                <div>
+                    <p class="text-white">Email : ict@up.ac.th<br>
+                    โทรศัพท์ : 054 466 666 ต่อ 2326<br>
+                    ที่อยู่ : คณะเทคโนโลยีสารสนเทศและการสื่อสารอาคารเทคโนโลยีสารสนเทศและการสื่อสาร 19 ม.2 ต.แม่กา อ.เมืองพะเยา จ.พะเยา มหาวิทยาลัยพะยา<br>
+                    ติดต่อคณบดี</p>
+                </div>
+                <div>
+                    <a href="https://www.facebook.com/WeLoveICTUP"><img src="https://credit9.com/wp-content/uploads/2022/11/Facebook.png" width="40px"  height="40px" alt=""></a>
+                    <a href="https://www.youtube.com/ICTPYOChannel"><img src="picture/logo_youtube.png" width="40px" height="40px" alt=""></a>
+                    <a href="https://ict.up.ac.th/web/greenoffice" class="text-decoration-none"><div id="ict-green-office" class=" text-white  mt-2 "><img src="https://th.bing.com/th/id/R.285674b1889dca891d9517d610da136b?rik=MW2u%2bc28Q8xUuQ&riu=http%3a%2f%2fgame-icons.net%2ficons%2florc%2foriginals%2fpng%2f000000%2ftransparent%2fpine-tree.png&ehk=ij%2fo0c5Yg1FHI2%2fWd78CpbOphIsPeJKc7ZJLPeWKjew%3d&risl=&pid=ImgRaw&r=0"  width="30px" height="30px"  alt="">ICT GREEN OFFICE</div></a>
+                </div>
+            </div>
+            <div  style="width: 22rem; height: 480px;" id="block2">
+                <p style="font-size: 20px;" class="text-white text-center">SITE MAP</p>
+                <div style="margin-top: 32px;">
+                    <ul>
+                        <a class="text-decoration-none " href="https://ict.up.ac.th/web/main/information"><li style="color:white;">แนะนำคณะ</li></a>
+                        <a class="text-decoration-none " href="page5.html"><li style="color:white;">หลักสูตรที่เปิดสอน</li></a>
+                        <a class="text-decoration-none " href="page4.html"><li style="color:white;">ฝึกประสบการณ์วิชาชีพ</li></a>
+                        <a class="text-decoration-none " href="https://dev.coop.ict.up.ac.th/"><li style="color:white;">ระบบบริหารจัดการโครงการสหกิจศึกษา</li></a>
+                        <a class="text-decoration-none " href="https://ict.up.ac.th/web/student/sqict"><li style="color:white;">พัฒนานิสิต</li></a>
+                        <a class="text-decoration-none " href="https://ict.up.ac.th/web/student/informationsystem"><li style="color:white;">ระบบสารสนเทศสำหรับนิสิต</li></a>
+                        <a class="text-decoration-none " href="https://ict.up.ac.th/alumni/"><li style="color:white;">ระบบสารสนเทศศิษย์เก่า</li></a>
+                        <a class="text-decoration-none " href="https://ict.up.ac.th/web/personnel/department"><li style="color:white;">หน่วยงานภายใน</li></a>
+                        <a class="text-decoration-none " href="https://ict.up.ac.th/web/personnel/major"><li style="color:white;">สาขาวิชา</li></a>
+                        <a class="text-decoration-none " href="https://ict.up.ac.th/web/personnel/download"><li style="color:white;">ขั้นตอนการให้บริการและดาวน์โหลดเอกสาร</li></a>
+                        <a class="text-decoration-none " href="https://ict.up.ac.th/web/operation/workmanual"><li style="color:white;">คู่มือการให้บริการ</li></a>
+                        <a class="text-decoration-none " href="https://ict.up.ac.th/web/personnel/informationsystem"><li style="color:white;">ระบบสารสรเทศสำหรับบุคลากร</li></a>
+                        <a class="text-decoration-none " href="https://ph01.tci-thaijo.org/index.php/jsid/index"><li style="color:white;">วารสารวิชาการ(JSID)</li></a>
+                        <a class="text-decoration-none " href="https://ict.up.ac.th/web/newseventict/943"><li style="color:white;">มาตราการเฝ้าระวังในช่วงสถาณการณ์ COVID-19</li></a>
+                        <a class="text-decoration-none " href="https://ict.up.ac.th/web/student/covid19"><li style="color:white;">มาตราการเกี่ยวกับนิสิตในชวงสถาณการณ์ COVID-19</li></a>                       
+                      </ul>
+                </div>
+            </div>
+            <div style="width: 22rem; height: 480px;" id="block3">
+                <p style="font-size: 20px;" class="text-white text-center">เว็บไซต์ที่เกี่ยวข้อง ( ภายใน )</p>
+                <div style="margin-top: 32px;">
+                    <ul>
+                        <a class="text-decoration-none " href="https://www.up.ac.th/th/"><li style="color:white;">มหาวิทยาลัยพะเยา</li></a>
+                        <a class="text-decoration-none " href="http://www.doga.up.ac.th/"><li style="color:white;">กองกลาง มหาวิทยาลัยพะเยา</li></a>
+                        <a class="text-decoration-none " href="https://personnel.up.ac.th/"><li style="color:white;">กองกลางเจ้าหน้าที่ มหาวิทยาลัยพะเยา</li></a>
+                        <a class="text-decoration-none " href="https://finance.up.ac.th/V2/"><li style="color:white;">กองคลัง มหาวิทยาลัยพะเยา</li></a>
+                        <a class="text-decoration-none " href="https://www.does.up.ac.th/"><li style="color:white;">กองบริการการศึกษา มหาวิทยาลัยพะเยา</li></a>
+                        <a class="text-decoration-none " href="https://plan.up.ac.th/"><li style="color:white;">กองแผนงาน มหาวิทยาลัยพะเยา</li></a>
+                        <a class="text-decoration-none " href="https://dsq.up.ac.th/v1/main.php"><li style="color:white;">กองพัฒนาคุณภาพนิสิตและนิสิตพิการ มหาวิทยาลัยพะเยา</li></a>
+                        <a class="text-decoration-none " href="www.dra.up.ac.th"><li style="color:white;">กองบริหารงานวิจัย มหาวิทยาลัยพะเยา</li></a>
+                        <a class="text-decoration-none " href="https://building.up.ac.th/"><li style="color:white;">กองอาคารสถานที่ มหาวิทยาลัยพะเยา</li></a>
+                        <a class="text-decoration-none " href="http://www.clm.up.ac.th/v1/"><li style="color:white;">ศูนย์บรรณสารและการเรียนรู้ มหาวิทยาลัยพะเยา</li></a>
+                        <a class="text-decoration-none " href="https://citcoms.up.ac.th/"><li style="color:white;">ศูนย์บริการเทคโนโลยีสารสนเทศและการสื่อสาร มหาวิทยาลัยพะเยา</li></a>                     
+                      </ul>
+                      
+                </div>
+            </div>
+            <div style="width: 22rem; height: 480px;" id="block4">
+                <p style="font-size: 20px;" class="text-white text-center">เว็บไซต์ที่เกี่ยวข้อง ( ภายนอก )</p>
+                <div style="margin-top: 32px;">
+                    <ul>
+                        <a class="text-decoration-none " href="https://www.mhesi.go.th/"><li style="color:white;">กระทรวงการอุดมศึกษา วิทยาศาสตร์ วิจัยและนวัตกรรม</li></a>
+                        <a class="text-decoration-none " href="https://www.moe.go.th/"><li style="color:white;">กระทรวงศึกษาธิการ</li></a>
+                        <a class="text-decoration-none " href="http://www.oic.go.th/Ginfo/moreinfo.asp?g=324227332%26I&i=222%22832%22422&p=%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B8%97%E0%B8%A3%E0%B8%A7%E0%B8%87%E0%B8%95%E0%B9%88%E0%B8%B2%E0%B8%87%E0%B9%86&o=%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B8%97%E0%B8%A3%E0%B8%A7%E0%B8%87%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%AD%E0%B8%B8%E0%B8%94%E0%B8%A1%E0%B8%A8%E0%B8%B6%E0%B8%81%E0%B8%A9%E0%B8%B2+%E0%B8%A7%E0%B8%B4%E0%B8%97%E0%B8%A2%E0%B8%B2%E0%B8%A8%E0%B8%B2%E0%B8%AA%E0%B8%95%E0%B8%A3%E0%B9%8C+%E0%B8%A7%E0%B8%B4%E0%B8%88%E0%B8%B1%E0%B8%A2%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%99%E0%B8%A7%E0%B8%B1%E0%B8%95%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1"><li style="color:white;">สำนักงานคณะกรรมการอุดมศึกษา</li></a>
+                        <a class="text-decoration-none " href="https://citt.or.th/"><li style="color:white;">สมาคมคณบดีคณะเทคโนโลยีสารสนเทศ</li></a>
+                        <a class="text-decoration-none " href="https://www.nrct.go.th/"><li style="color:white;">สำนักงานการวิจัยแห่งชาติ</li></a>
+                        <a class="text-decoration-none " href="https://www.tsri.or.th/"><li style="color:white;">สำนักงานคณะกรรมการส่งเสริมวิทยาศาสตร์วิจัยและนวัตกรรม</li></a>
+                        <a class="text-decoration-none " href="https://www.arda.or.th/"><li style="color:white;">สำนักงานพัฒนาการวิจัยการเกษตร ( องค์การมหาชน)</li></a>
+                        <a class="text-decoration-none " href="https://www.studentloan.or.th/"><li style="color:white;">กองทุนเงินให้กู้ยืมเพื่อการศึกษา</li></a>
+                        <a class="text-decoration-none " href="https://www.nhso.go.th/"><li style="color:white;">สำนักงานหลักประกันสุขภาพแห่งชาติ</li></a>
+                        <a class="text-decoration-none " href="https://www.sso.go.th/wpr/"><li style="color:white;">สำนักงานประกันสังคม</li></a>
+                        <a class="text-decoration-none " href="https://www.dti.or.th/"><li style="color:white;">สถาบันเทคโนโลยีป้องกันประเทศ</li>                       </a>
+                      </ul>                      
+                </div>
+            </div>
+        </div>
+        <div id="link-to-top">
+            <p style="font-size: 80px;" class="text-center">&#8593;</p>
+        </div>
+        <div   id="circle_off-side">
+            <p onclick="totop()" class="btn" id="circle"></p>
+        </div>
+        <div class="text-center">&copy; 2023 คณะเทคโนโลยีสารสนเทศและการสื่อสารมหาวิทยาลัยพะเยา. All right reserved.</div>
+    </div>
+    <script src="page5.js"></script>
+</body>
+</html>
